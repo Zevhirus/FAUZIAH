@@ -1,0 +1,20 @@
+{
+  "name": "wa-bot-edabu",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp non-resmi (Baileys) untuk FAQ Edabu BPJS Kesehatan, dibantu Gemini",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "dotenv": "^16.4.5",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
